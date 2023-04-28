@@ -1,0 +1,23 @@
+body {
+  * {
+    margin-inline: auto;
+  }
+}
+
+table,
+tr,
+td {
+	border: 3px solid #666;
+}
+
+.bi {
+  display: none;
+  &.show {
+    display: block;
+    transition:all .7s ease;
+    &.rotate {
+      transform: rotate(180deg);
+    }
+  }
+}
+

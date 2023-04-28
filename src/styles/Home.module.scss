@@ -1,0 +1,59 @@
+.search {
+  margin-inline: auto;
+  margin-bottom: 10px;
+  width: 230px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  & * {
+    height: 30px;
+    margin-inline: auto;
+    padding-left: 10px;
+  }
+}
+
+.record {
+	margin-inline: auto;
+	width: 70%;
+	text-align: center;
+	font-size: 25px;
+	border-collapse: collapse;
+	thead {
+		height: 70px;
+    cursor: pointer;
+	}
+	tbody {
+		tr {
+			td {
+				width: 25%;
+			}
+		}
+	}
+}
+
+.pagination {
+  width: 50%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  li {
+    margin: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    a {
+      font-size: 25px;
+    }
+  }
+}
+
+.page-active {
+  color: white;
+  background: gray;
+}
