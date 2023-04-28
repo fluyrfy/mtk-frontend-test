@@ -6,7 +6,7 @@
 
 [github](https://github.com/fluyrfy/mtk-frontend-test)
 
-[demo link]()
+[demo link](https://mtk-frontend-test.vercel.app/)
 
 歡迎指教個人於前公司開發的 [next-starter](https://github.com/fluyrfy/Next_Starter)
 
