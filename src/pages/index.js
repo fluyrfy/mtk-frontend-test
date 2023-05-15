@@ -177,9 +177,6 @@ export default function Home() {
 						setNowSet(records.slice(start, start + 20));
 						setNowPage(e.selected);
 					}}
-					onClick={(e) => {
-						console.log(e);
-					}}
 				/>
 			</main>
 		</>
